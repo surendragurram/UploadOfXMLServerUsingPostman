@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.1">
+	<ServiceRequest>
+		<siri:RequestTimestamp>2015-06-19T12:52:00%2B02:00</siri:RequestTimestamp>
+		<siri:RequestorRef>de:bosch:im-router</siri:RequestorRef>
+		<RequestPayload>
+			<TripRequest>
+				<Origin>
+					<LocationRef>
+						<GeoPosition>
+							<Longitude>6.918001</Longitude>
+							<Latitude>50.946270</Latitude>
+						</GeoPosition>
+						<LocationName>
+							<Text>Koordinate</Text>
+						</LocationName>
+					</LocationRef>
+					<DepArrTime>2015-06-20T10:00:00%2B02:00</DepArrTime>
+				</Origin>
+				<Destination>
+					<LocationRef>
+						<StopPlaceRef>de:5315:11201</StopPlaceRef>
+						<LocationName>
+							<Text>Köln Hbf</Text>
+						</LocationName>
+					</LocationRef>
+				</Destination>
+				<Params>
+					<PtModeFilter>
+						<Exclude>0</Exclude>
+						<PtMode>bus</PtMode>
+						<PtMode>tram</PtMode>
+						<PtMode>rail</PtMode>
+						<PtMode>intercityRail</PtMode>
+						<PtMode>urbanRail</PtMode>
+						<PtMode>metro</PtMode>
+					</PtModeFilter>
+				</Params>
+			</TripRequest>
+		</RequestPayload>
+	</ServiceRequest>
+</Trias>

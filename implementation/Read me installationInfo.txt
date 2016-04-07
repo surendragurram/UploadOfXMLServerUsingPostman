@@ -1,0 +1,30 @@
+           Pre Installations
+
+Install Apace xampp server in 139.15.221.16
+
+place script.js,index.html,httpRequest.php in a BoschTriasService
+
+Directory must be WebServer/XAMPP/htdocs/BoschTriasService
+
+Next, create a separate folder in htdocs as TRIAS_INPUT_FILES 
+
+Install Chrome Postman in fe0vm904
+
+                  
+                   Running the task
+
+Login into fe0vm904 and open chrome 
+
+Login into 139.15.221.16,start xampp server(find it in allapps as XAMPP Control Panel)
+
+open postman in fe0vm904
+
+Enter http://139.15.221.16/BoschTriasService/httpRequest.php in postman url
+
+Set httprequest as post in url
+
+chosse a file in selectio bar, press send
+
+Now open WebServer/XAMPP/htdocs/TRIAS_INPUT_FILES in 139.15.221.16
+
+The file must be saved in TRIAS_INPUT_FILES
